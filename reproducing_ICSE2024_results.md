@@ -11,7 +11,7 @@ First, make sure the NVIDIA Container Toolkit is installed. See [https://github.
 Pull the image:
 
 ```
-$ docker pull 
+$ docker pull dfegicse2024/dfeg_im:v1.0
 ```
 
 ### Step 1: Run the Image
@@ -19,7 +19,7 @@ $ docker pull
 To run the docker image, use the following:
 
 ```
-$ sudo docker run --runtime=nvidia --gpus all -it  /bin/bash
+$ sudo docker run --runtime=nvidia --gpus all -it dfegicse2024/dfeg_im:v1.0 /bin/bash
 ```
 
 ### Step 2:
