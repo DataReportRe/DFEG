@@ -27,7 +27,7 @@ $ sudo docker run --runtime=nvidia --gpus all -it dfegicse2024/dfeg_im:v1.0 /bin
 When you are in the bash shell, move to the dfeg directory and untar the source code.
 
 ```
-$ cd dfeg/
+$ cd /dfeg
 $ tar -xf dfeg_source.tgz 
 ```
 
@@ -85,4 +85,46 @@ All paper datas store into "results/paper_dates", and you can run:
 $python3 extract_datas.py
 ```
 in the "results/paper_dates" without need to rerun "dfeg" to analysis datas for paper.
+
+# Run DFEG_BO
+To run DFEG_BO in section 4.5 of paper:
+
+```
+$python3 dfeg_bo.py --dfeg_sampling functions_to_test.txt --rid 0
+```
+
+Results will be stored in "results/dfeg_bo_res"
+
+# Run Xscope "fp|many"
+Move to the dfeg directory and untar the source code.
+
+```
+$ cd /dfeg
+$ tar -xf xscope_source.tgz 
+```
+
+Now move to the source code directory:
+
+```
+$ cd xscope
+```
+Run the test script:
+
+```
+$./test.sh
+```
+
+Results will be saved to "xscope_res"
+
+# Run Xscope for other options "fp|two,fp|whole,exp|many,exp|two,exp|whole"
+Run the test script:
+
+```
+$./optionstest.sh
+```
+Results will be saved to "xscope_res_appendix"
+
+
+
+
 
