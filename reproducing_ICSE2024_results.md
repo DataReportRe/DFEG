@@ -65,7 +65,7 @@ Into "results" and run:
 $python3 extract_datas.py
 ```
 
-Table 2 will be saved in "table_res.xls" and figures 3 to 8 will be save into "graph".
+Table 2 will be saved in "res_table.xls" and figures 3 to 8 will be save into "graph".
 
 # Get appendix results
 
@@ -76,7 +76,7 @@ Into "results" and run:
 $python3 extract_datas_appendix.py
 ```
 
-Table 4 to 8 will be saved in "table_res_[fptwo|fpwhole|expmany|exptwo|expwhole].xls". 
+Table 4 to 8 will be saved in res_table_[fptwo|fpwhole|expmany|exptwo|expwhole].xls". 
 
 
 # Paper datas
