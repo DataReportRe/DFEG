@@ -84,5 +84,5 @@ All paper datas store into "results/paper_dates", and you can run:
 ```
 $python3 extract_datas.py
 ```
-in the "results/paper_dates" without need to rerun "./dfeg" to analysis datas for paper.
+in the "results/paper_dates" without need to rerun "dfeg" to analysis datas for paper.
 
