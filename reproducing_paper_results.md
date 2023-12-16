@@ -1,8 +1,8 @@
-# How to Reproduce ICSE24 Results
+# How to Reproduce DFEG Results
 
 ## Setting up the Docker Image
 
-We provide a docker image with all the requirements to reproduce the key result of the ICSE2024 paper.
+We provide a docker image with all the requirements to reproduce the key result of in our paper.
 
 ### Step 0: Obtain the Docker Image
 
@@ -11,7 +11,7 @@ First, make sure the NVIDIA Container Toolkit is installed. See [https://github.
 Pull the image:
 
 ```
-$ docker pull dfegicse2024/dfeg_im:v1.0
+$ docker pull dfeg2024/dfeg_im:v1.0
 ```
 
 ### Step 1: Run the Image
@@ -19,7 +19,7 @@ $ docker pull dfegicse2024/dfeg_im:v1.0
 To run the docker image, use the following:
 
 ```
-$ sudo docker run --runtime=nvidia --gpus all -it dfegicse2024/dfeg_im:v1.0 /bin/bash
+$ sudo docker run --runtime=nvidia --gpus all -it dfeg2024/dfeg_im:v1.0 /bin/bash
 ```
 
 ### Step 2:
