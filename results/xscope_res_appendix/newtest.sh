@@ -1,0 +1,5 @@
+./xscope.py functions_to_test.txt -rid 3 -n "fp" -r "two" 
+./xscope.py functions_to_test.txt -rid 4 -n "fp" -r "whole" 
+./xscope.py functions_to_test.txt -rid 5 -n "exp" -r "two" 
+./xscope.py functions_to_test.txt -rid 6 -n "exp" -r "whole" 
+./xscope.py functions_to_test.txt -rid 7 -n "exp" -r "many" 
